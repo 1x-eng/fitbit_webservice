@@ -17,7 +17,7 @@ from apiLayer.fitbitStore import FitbitAcknowledgeAuthorization as acknowledgeFi
 from apiLayer.fitbitStore import FitbitApiAnalytics as processFitbitApi
 from apiLayer.fitbitStore import ValidateAuthorizationStatus as validateAuthStatus
 
-cors = CORS(allow_all_origins=['http://localhost:8000'])
+cors = CORS(allow_all_origins=['http://localhost:8000']) #Allow CORS for this endpoint.
 app = falcon.API(middleware=[cors.middleware,])
 
 app.add_route('/', defaultRoute())
