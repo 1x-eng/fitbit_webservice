@@ -18,11 +18,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fitbit_wrapper_config.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fitbit_wrapper_config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/fitbit_wrapper_config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81">
+            <state relative-caret-position="400">
               <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fitbit_web_service_core.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coreSrc/fitbit_web_service_core.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1808">
+              <caret line="117" column="12" lean-forward="false" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fitbit_webservice_config.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/fitbit_webservice_config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -57,13 +77,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/fitbit_webservice_config.py" />
         <option value="$PROJECT_DIR$/coreSrc/fitbitPyWrapper.py" />
         <option value="$PROJECT_DIR$/starkApi.py" />
         <option value="$PROJECT_DIR$/coreSrc/fitbit_web_service_core.py" />
         <option value="$PROJECT_DIR$/apiLayer/fitbitStore.py" />
         <option value="$PROJECT_DIR$/fitbit_web_service.py" />
         <option value="$PROJECT_DIR$/config/fitbit_wrapper_config.py" />
+        <option value="$PROJECT_DIR$/config/fitbit_webservice_config.py" />
       </list>
     </option>
   </component>
@@ -74,10 +94,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="610" />
-    <option name="width" value="1311" />
-    <option name="height" value="750" />
+    <option name="x" value="1360" />
+    <option name="y" value="21" />
+    <option name="width" value="768" />
+    <option name="height" value="1339" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -103,6 +123,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="fitbit_webservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitbit_webservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitbit_webservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coreSrc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -390,10 +424,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="610" width="1311" height="750" extended-state="6" />
+    <frame x="1360" y="21" width="768" height="1339" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21510297" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13802083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -431,7 +465,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#267#280#0" expanded="true" />
+            <element signature="e#267#280#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -441,7 +475,7 @@
         <state relative-caret-position="352">
           <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding>
-            <element signature="e#235#248#0" expanded="true" />
+            <element signature="e#235#248#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -451,7 +485,7 @@
         <state relative-caret-position="1872">
           <caret line="117" column="12" lean-forward="false" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="12" />
           <folding>
-            <element signature="e#392#403#0" expanded="true" />
+            <element signature="e#392#403#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -477,26 +511,8 @@
         <state relative-caret-position="623">
           <caret line="108" column="41" lean-forward="false" selection-start-line="108" selection-start-column="41" selection-end-line="108" selection-end-column="41" />
           <folding>
-            <element signature="e#267#280#0" expanded="true" />
+            <element signature="e#267#280#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coreSrc/fitbit_web_service_core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="117" column="12" lean-forward="false" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="12" />
-          <folding>
-            <element signature="e#392#403#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/fitbit_webservice_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -505,15 +521,31 @@
         <state relative-caret-position="304">
           <caret line="19" column="87" lean-forward="false" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
           <folding>
-            <element signature="e#235#248#0" expanded="true" />
+            <element signature="e#235#248#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/fitbit_wrapper_config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
+        <state relative-caret-position="400">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreSrc/fitbit_web_service_core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1808">
+          <caret line="117" column="12" lean-forward="false" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/fitbit_webservice_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="33" />
           <folding />
         </state>
       </provider>

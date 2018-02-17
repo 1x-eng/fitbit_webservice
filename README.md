@@ -26,6 +26,26 @@ NOTE: THIS CODEBASE USES FALCON & GUNICORN TO  FACILITATE WEB SERVICE. GUNICORN 
 ```
 - When the above request is served for the first time, oAuth will carry on with its magic to create valid token's for usage. Response from these requests will be self-explanatory.
 
+# Keywords
+- todays_steps_realtime: Get Real time steps (Until last sync with Fitbit) from fitbit.
+- last_7_days_steps: Get total steps covered for last 7 days.
+- todays_calories_realtime: Get calories burned for for current day.
+- last_7_days_calories: Get calories burned data for last 7 days.
+- todays_sedentary_minutes_realtime: Get sedentary minutes for current day.
+- last_7_days_sedentary_minutes: Get sedentary minutes for last 7 days.
+- todays_lightly_active_minutes_realtime: Get lightly active minutes for current day.
+- todays_fairly_active_minutes_realtime: Get fairly active minutes for current day.
+- todays_very_active_minutes_realtime: Get very active minutes for current day.
+- last_7_days_lightly_active_minutes: Get lightly active minutes for last 7 days.
+- last_7_days_fairly_active_minutes: Get fairly active minutes for last 7 days.
+- last_7_days_very_active_minutes: Get very active minutes for last 7 days.
+- todays_realtime_distance_covered: Get distance covered for current day.
+- last_7_days_distance_covered: Get distnace covered for last 7 days.
+- lifetime_activities_details: Get fitbit lifetime activities details. 
+- get_friends_leader_board: Get friends leader board details. 
+- todays_sleep_details: Get sleep details for current day.
+- todays_heart_details: Get heart details for current day.
+
 # Support
 For any issues write to Pruthvi @ pruthvikumar.123@gmail.com. Ensure to have a valid subject line, detailed message with appropriate stack trace to expect prompt/quick response. 
 
@@ -35,20 +55,8 @@ MIT License
 
 Copyright (c) 2018 Pruthvi Kumar
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
