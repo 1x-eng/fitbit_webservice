@@ -12,7 +12,7 @@ NOTE: THIS CODEBASE USES FALCON & GUNICORN TO  FACILITATE WEB SERVICE. GUNICORN 
 # Setup:
 - Create a valid fitbit account and setup an App here - https://dev.fitbit.com/apps/new
 - Make notes of client ID and client secret.
-- clone this repo; ensure to cd into the directory 'firbit_webservice'.
+- clone this repo; ensure to cd into the directory 'fitbit_webservice'.
 - cd fitbit_webservice/config -> edit file named 'fitbit_wrapper_config.py', add client ID and client secret where its asked to; save.
 - pip install all the requirements (Python=3). (NOTE: Always better to create a dedicated virtual environment. Either using Anaconda /Conventional Python)
 - To start the web service, type the following command (whilst staying on 'fitbit_webservice' directory):
