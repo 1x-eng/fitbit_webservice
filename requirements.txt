@@ -1,5 +1,4 @@
-falcon==3.1.0
+falcon==3.1.1
 falcon_cors==1.1.7
-requests==2.27.1
+requests==2.31.0
 gunicorn
-
