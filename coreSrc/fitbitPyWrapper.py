@@ -47,7 +47,10 @@ class Fitbit(Fitbit_Config):
     def GetAccessToken(self, access_code):
 
         # Construct the authentication header
-        auth_header = base64.b64encode(self.dynamic_config['client_id'] + ':' + self.dynamic_config['client_secret'])
+        #header
+        strAuthHeader = self.dynamic_config['client_id'] + ':' + self.dynamic_config['client_secret']
+        bAuthHeader = strAuthHeader.encode("utf-8")
+        auth_header = base64.b64encode(bAuthHeader).decode()
         headers = {
             'Authorization': 'Basic %s' % auth_header,
             'Content-Type' : 'application/x-www-form-urlencoded'
@@ -81,7 +84,9 @@ class Fitbit(Fitbit_Config):
     def RefAccessToken(self, token):
 
         # Construct the authentication header
-        auth_header = base64.b64encode(self.dynamic_config['client_id'] + ':' + self.dynamic_config['client_secret'])
+        strAuthHeader = self.dynamic_config['client_id'] + ':' + self.dynamic_config['client_secret']
+        bAuthHeader = strAuthHeader.encode("utf-8")
+        auth_header = base64.b64encode(bAuthHeader).decode() 
         headers = {
             'Authorization': 'Basic %s' % auth_header,
             'Content-Type' : 'application/x-www-form-urlencoded'

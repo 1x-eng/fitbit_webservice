@@ -47,9 +47,9 @@ class Fitbit_Config(object):
         :return: a dictionary of dynamic config required for Fitbit wrapper.
         """
 
-        CLIENT_ID = 'XXXXX' # Add your client ID here.
-        CLIENT_SECRET = 'xxxxx' # Add your client secret here.
-        REDIRECT_URI = 'http://localhost:8000/fitbitAuthCallback' # Add your redirect URI here.
+        CLIENT_ID = 'XXXX' # Add your client ID here.
+        CLIENT_SECRET = 'XXXX' # Add your client secret here.
+        REDIRECT_URI = 'https://<yourpublicurl>/fitbitAuthCallback' # Add your redirect URI here.
 
         # Decide which information the FitBit.py should have access to.
         # Options: 'activity', 'heartrate', 'location', 'nutrition',

@@ -16,11 +16,11 @@ NOTE: uses gunicorn (https://docs.gunicorn.org/en/stable/index.html) which is WS
 - Edit `fitbit_wrapper_config.py` > add client ID and client secret > save.
 - `pip install -r requirements.txt` in venv of your choice.
 ```sh
-    gunicorn -b localhost:8000 fitbit_web_service:app --reload
+gunicorn -b localhost:8000 fitbit_web_service:app --reload
 ```
 - Interact with your webservice with dedicated #Keywords:
 ```sh
-    http://localhost:8000/processFitbitApi?keyword=todays_steps_real_time
+http://localhost:8000/processFitbitApi?keyword=todays_steps_real_time
 ```
 
 # Keywords
