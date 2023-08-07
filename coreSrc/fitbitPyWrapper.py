@@ -50,7 +50,7 @@ class Fitbit(Fitbit_Config):
         #header
         strAuthHeader = self.dynamic_config['client_id'] + ':' + self.dynamic_config['client_secret']
         bAuthHeader = strAuthHeader.encode("utf-8")
-        auth_header = base64.b64encode(bAuthHeader) 
+        auth_header = base64.b64encode(bAuthHeader).decode()
         headers = {
             'Authorization': 'Basic %s' % auth_header,
             'Content-Type' : 'application/x-www-form-urlencoded'
@@ -86,7 +86,7 @@ class Fitbit(Fitbit_Config):
         # Construct the authentication header
         strAuthHeader = self.dynamic_config['client_id'] + ':' + self.dynamic_config['client_secret']
         bAuthHeader = strAuthHeader.encode("utf-8")
-        auth_header = base64.b64encode(bAuthHeader) 
+        auth_header = base64.b64encode(bAuthHeader).decode() 
         headers = {
             'Authorization': 'Basic %s' % auth_header,
             'Content-Type' : 'application/x-www-form-urlencoded'
